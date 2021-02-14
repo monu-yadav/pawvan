@@ -1,0 +1,73 @@
+@charset "utf-8";
+body{
+    background-color:darkblue;
+}
+
+.fade-animation{
+    width:750px;
+    height:750px;
+    border:20px solid darkblue;
+    margin:100px auto;
+    background:url(../images/a.jpg);
+    background-size: cover;
+    animation: wap 30s infinite
+     -webkit-animation:wap 30s infinite; 
+    -o-animation:wap 30s infinite; 
+    -moz-animation:wap 30s infinite; 
+    animation:wap 30s infinite; 
+}
+
+
+@-webkit-keyframes wap{
+    0%{background:url(../images/b.jpg);background-size:cover;}
+    25%{background:url(../images/c.jpg);background-size:cover;}
+    50%{background:url(../images/d.jpg);background-size:cover;}
+    75%{background:url(../images/e.jpg);background-size:cover;}
+    100%{background:url(../images/g.jpg);background-size:cover;}
+}
+    
+@-0-keyframes wap{
+    0%{background:url(../images/b.jpg);background-size:cover;}
+    25%{background:url(../images/c.jpg);background-size:cover;}
+    50%{background:url(../images/d.jpg);background-size:cover;}
+    75%{background:url(../images/e.jpg);background-size:cover;}
+    100%{background:url(../images/g.jpg);background-size:cover;}
+}
+    
+@-moz-keyframes wap{
+    0%{background:url(../images/b.jpg);background-size:cover;}
+    25%{background:url(../images/c.jpg);background-size:cover;}
+    50%{background:url(../images/d.jpg);background-size:cover;}
+    75%{background:url(../images/e.jpg);background-size:cover;}
+    100%{background:url(../images/g.jpg);background-size:cover;}
+}
+    
+@keyframes wap{
+    0%{background:url(../images/b.jpg);background-size:cover;}
+    25%{background:url(../images/c.jpg);background-size:cover;}
+    50%{background:url(../images/d.jpg);background-size:cover;}
+    75%{background:url(../images/e.jpg);background-size:cover;}
+    100%{background:url(../images/g.jpg);background-size:cover;}
+}
+    
+
+#pawan{
+    text-align:center;
+    font-family:inherit;
+    font-style: italic;
+    color:crimson;
+    -webkit-animation: wap 4s infinite;
+    -o-animation: wap 4s infinite;
+    -moz-animation: wap 4s infinite;
+    animation: wap 4s infinite;   
+    }
+#chubbu{
+    text-align:center;
+    font-family:inherit;
+    font-style: italic;
+    color:crimson;
+    -webkit-animation: wap 4s infinite;
+    -o-animation: wap 4s infinite;
+    -moz-animation: wap 4s infinite;
+    animation: wap 4s infinite;      
+}
